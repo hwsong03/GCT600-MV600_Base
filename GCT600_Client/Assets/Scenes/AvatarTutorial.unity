@@ -250,7 +250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 841937144042a43ff8f0fd2c7cd91056, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.90909
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 841937144042a43ff8f0fd2c7cd91056, type: 3}
       propertyPath: m_LocalRotation.w
@@ -287,7 +287,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 841937144042a43ff8f0fd2c7cd91056, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1943702615}
   m_SourcePrefab: {fileID: 100100000, guid: 841937144042a43ff8f0fd2c7cd91056, type: 3}
 --- !u!1 &223176545
 GameObject:
@@ -1007,7 +1010,7 @@ MonoBehaviour:
     name: Wall1
     ipAddress: 127.0.0.1
     quadTransform: {fileID: 60969004}
-    activeType: 2
+    activeType: 0
     poseSocketPort: 5050
     handSocketPort: 5051
     faceSocketPort: 5052
@@ -1018,7 +1021,7 @@ MonoBehaviour:
     name: Wall2
     ipAddress: 127.0.0.1
     quadTransform: {fileID: 282124860}
-    activeType: 1
+    activeType: 0
     poseSocketPort: 5050
     handSocketPort: 5051
     faceSocketPort: 5052
@@ -1105,6 +1108,31 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d8b50752af2ea347aab6ca42fb61c76, type: 3}
+--- !u!1 &1943702614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 841937144042a43ff8f0fd2c7cd91056, type: 3}
+  m_PrefabInstance: {fileID: 222702917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1943702615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943702614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5628aa8ec3cbd714581685f70423cbf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MixamoRetargeter
+  streamManager: {fileID: 1405606663}
+  poseClient: {fileID: 0}
+  smoothing: 0.5
+  mirrorX: 1
+  applyRootPosition: 0
+  rootPositionScale: 1
+  rootOffset: {x: 0, y: 0, z: 0}
+  rootIgnoreY: 1
 --- !u!1 &2132842236
 GameObject:
   m_ObjectHideFlags: 0
