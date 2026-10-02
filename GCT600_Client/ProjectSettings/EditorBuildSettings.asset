@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ClientScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/AvatarTutorial.unity
+    guid: 2352db4a146b542f6b225fab720139b7
+  - enabled: 0
+    path: Assets/Scenes/AvatarWallDisplay.unity
+    guid: 73cd09f584d744d459787c2a90229d1d
+  - enabled: 1
+    path: Assets/Scenes/AvatarQuest.unity
+    guid: 593131c3942be44c4876202d6aa83550
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 95cb087f1a0894c2d810f1b4219f553c, type: 2}
